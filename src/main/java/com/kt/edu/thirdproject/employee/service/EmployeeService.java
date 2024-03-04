@@ -34,6 +34,8 @@ public class EmployeeService {
         this.employeeRepository = employeeRepository;
 
     }*/
+    /*
+    query 분리
     public List<EmployeeEntity> getEmployeeList() {
         log.info("Request to get all Employees");
         log.info("h2 password : " + h2Password );
@@ -48,6 +50,7 @@ public class EmployeeService {
         log.info("Request to get Employee : {}", id);
         return employeeRepository.findById(id).get();
     }
+     */
 
     @Transactional
     public EmployeeEntity create(EmployeeEntity employeeEntity) {
@@ -63,6 +66,7 @@ public class EmployeeService {
         employeeEntity.setNew(true);
         return this.employeeRepository.save(employeeEntity);
     }
+
 
     @Ktedu
     public EmployeeEntity update(Long id,EmployeeEntity employeeEntity) {

@@ -22,6 +22,7 @@ public class EmployeeController {
     private EmployeeService employeeService;
 
     //@Cacheable(cacheNames = "employee")
+    /*
     @GetMapping("/employees")
     @Operation(summary ="임직원 전체 조회",description="임직원 전체를 조회 합니다.")
     public List<EmployeeEntity> getEmployeeList() {
@@ -33,6 +34,7 @@ public class EmployeeController {
     public EmployeeEntity getEmployee(@PathVariable Long id) {
         return this.employeeService.getEmployee(id);
     }
+     */
 
     @Operation(summary ="임직원 등록",description="임직원을 등록합니다.")
     @PostMapping("/employees")
