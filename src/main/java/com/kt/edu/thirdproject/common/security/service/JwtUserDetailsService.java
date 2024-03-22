@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.service;
+package com.kt.edu.thirdproject.common.security.service;
 
 import java.util.ArrayList;
 

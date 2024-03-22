@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.config;
+package com.kt.edu.thirdproject.common.security;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.security.crypto.password.PasswordEncoder;

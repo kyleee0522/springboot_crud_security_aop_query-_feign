@@ -1,14 +1,13 @@
-package com.kt.edu.thirdproject.common.controller;
+package com.kt.edu.thirdproject.common.security.controller;
 
 
-import com.kt.edu.thirdproject.common.domain.JwtRequest;
-import com.kt.edu.thirdproject.common.domain.JwtResponse;
-import com.kt.edu.thirdproject.common.service.JwtUserDetailsService;
-import com.kt.edu.thirdproject.common.util.JwtTokenUtil;
+import com.kt.edu.thirdproject.common.security.domain.JwtRequest;
+import com.kt.edu.thirdproject.common.security.domain.JwtResponse;
+import com.kt.edu.thirdproject.common.security.service.JwtUserDetailsService;
+import com.kt.edu.thirdproject.common.security.util.JwtTokenUtil;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;

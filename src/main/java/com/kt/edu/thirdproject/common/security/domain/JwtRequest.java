@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.domain;
+package com.kt.edu.thirdproject.common.security.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

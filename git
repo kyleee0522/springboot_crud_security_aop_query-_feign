@@ -1,0 +1,9 @@
+[33m3f1f846[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: commit: 올라가 좀
+[33m7baddfa[m HEAD@{1}: pull --no-stat -v --progress origin master: Merge made by the 'recursive' strategy.
+[33ma6759e0[m HEAD@{2}: commit: 올라가 좀
+[33m3b82020[m HEAD@{3}: checkout: moving from master to master
+[33m3b82020[m HEAD@{4}: branch: Reset to origin/master
+[33m964e4e0[m HEAD@{5}: commit (merge): Merge remote-tracking branch 'origin/master'
+[33m4514b2d[m HEAD@{6}: commit: 올라가 좀
+[33m01ff22f[m HEAD@{7}: commit: CQRS 1차 적용
+[33mf76fa87[m HEAD@{8}: clone: from https://github.com/kyleee0522/springboot_crud_security_aop.git

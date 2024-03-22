@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.config;
+package com.kt.edu.thirdproject.common.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
@@ -76,7 +76,7 @@ public class SecurityConfig {
                                 .requestMatchers(
                                         "/",
                                         "/actuator/**",
-                                            "/v3/api-docs/**",
+                                        "/v3/api-docs/**",
                                         "/swagger-ui.html",
                                         "/swagger-ui/**",
                                         "/api/login",

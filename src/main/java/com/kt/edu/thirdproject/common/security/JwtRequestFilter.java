@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.config;
+package com.kt.edu.thirdproject.common.security;
 
 import java.io.IOException;
 
@@ -7,11 +7,10 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-import com.kt.edu.thirdproject.common.service.JwtUserDetailsService;
-import com.kt.edu.thirdproject.common.util.JwtTokenUtil;
+import com.kt.edu.thirdproject.common.security.service.JwtUserDetailsService;
+import com.kt.edu.thirdproject.common.security.util.JwtTokenUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.config;
+package com.kt.edu.thirdproject.common.security;
 
 
 import lombok.extern.slf4j.Slf4j;

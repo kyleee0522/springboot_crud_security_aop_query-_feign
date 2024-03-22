@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.domain;
+package com.kt.edu.thirdproject.common.security.domain;
 
 import java.io.Serializable;
 

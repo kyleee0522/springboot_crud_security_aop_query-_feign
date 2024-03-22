@@ -1,4 +1,4 @@
-package com.kt.edu.thirdproject.common.util;
+package com.kt.edu.thirdproject.common.security.util;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Date;

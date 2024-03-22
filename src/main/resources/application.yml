@@ -7,10 +7,10 @@ spring:
   application:
     name: edu-spring-data-jdbc
   profiles:
-    active: prd
+    active: local
   banner:
     location: "classpath:banner.txt"
-# cache 사용을 위해 cache name 설정
+  # cache 사용을 위해 cache name 설정
   cache:
     cache-names: employee
 #  security:
