@@ -2,7 +2,7 @@
 ### prd
 ##############
 server:
-  port: 8081
+  port: 8082
   servlet:
     context-path: /
   tomcat:
@@ -56,3 +56,7 @@ springdoc:
 logging:
   level:
     com.kt.edu: trace
+
+#feign api
+api:
+  edu.url: https://jsonplaceholder.typicode.com # http://localhost:8081/
