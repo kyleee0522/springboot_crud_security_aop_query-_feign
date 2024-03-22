@@ -70,3 +70,7 @@ springdoc:
 logging:
   level:
     com.kt.edu: trace
+
+#feign api
+api:
+  edu.url: https://jsonplaceholder.typicode.com # http://localhost:8081/
