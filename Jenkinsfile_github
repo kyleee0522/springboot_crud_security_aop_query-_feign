@@ -11,9 +11,9 @@ def fromImage = "ghcr.io/shclub/jre17-runtime:v1.0.0"
 // 본인 Namespace
 def P_NAMESPACE = "default"
 // 본인 slave pvc
-def P_SLAVE_PVC = "jenkins-eduq-slave-pvc"
+def P_SLAVE_PVC = "jenkins-edu1-slave-pvc"
 // 본인 이메일
-def P_EMAIL = "shclub@gmail.com"
+def P_EMAIL = "kyleee0522@gmail.com"
 
 def TAG = getTag(gitBranch)
 
