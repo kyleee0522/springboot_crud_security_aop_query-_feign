@@ -3,15 +3,15 @@ def gitBranch = 'master'
 def docker_registry = "ghcr.io"  
 
 // 본인 이미지 사용
-def imageName = "ghcr.io/kt-cloudnative/springboot_crud_security"
-def git_ops_name = "backend-gitops-kust"
+def imageName = "ghcr.io/kyleee0522/springboot_crud_security_aop_query_feign"
+def git_ops_name = "backend_gitops"
 
 def fromImage = "ghcr.io/shclub/jre17-runtime:v1.0.0"
 
 // 본인 Namespace
-def P_NAMESPACE = "devops"
+def P_NAMESPACE = "default"
 // 본인 slave pvc
-def P_SLAVE_PVC = "jenkins-edu-slave-pvc"
+def P_SLAVE_PVC = "jenkins-eduq-slave-pvc"
 // 본인 이메일
 def P_EMAIL = "shclub@gmail.com"
 
